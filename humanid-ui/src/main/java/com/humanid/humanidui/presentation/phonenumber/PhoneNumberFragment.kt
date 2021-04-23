@@ -206,7 +206,7 @@ class PhoneNumberFragment : PassiveFormFragment(), OnVerifyOtpListener {
 
         tvOTP.makeLinks(
             Pair(getString(R.string.label_learn_more), View.OnClickListener {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.human-id.org/privacypolicy")))
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://human-id.org/#how-we-protect")))
             })
         )
     }
